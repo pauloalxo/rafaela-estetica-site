@@ -88,3 +88,15 @@ if (wppFloat) {
   window.addEventListener("load", atualizarWppPorSecao);
   window.addEventListener("scroll", atualizarWppPorSecao);
 }
+function voltarProcedimentos(event) {
+
+  event.preventDefault();
+
+  if (window.opener) {
+    window.opener.focus(); // volta para aba principal
+    window.close(); // fecha a aba atual
+  } else {
+    window.location.href = "estetica-facial.html";
+  }
+
+}
