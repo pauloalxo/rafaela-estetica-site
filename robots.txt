@@ -1,0 +1,4 @@
+User-agent: *
+allow: /
+
+sitemap: https://esteticarb.com.br/sitemap.xml
