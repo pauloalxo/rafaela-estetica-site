@@ -1,4 +1,4 @@
 User-agent: *
-allow: /
+Allow: /
 
-sitemap: https://esteticarb.com.br/sitemap.xml
+sitemap: https://esteticarafaelabrandao.com.br/Sitemap.xml
